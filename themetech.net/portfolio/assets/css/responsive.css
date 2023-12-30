@@ -1,0 +1,333 @@
+/*==========================================
+Hero Section
+=============================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .introduction h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .introduction .subtitle {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .introduction p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .introduction p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .theme-switcher-label {
+        right: 38px;
+    }
+    .theme-switcher-label .switch-handle i {
+        top: 0;
+        left: -23px;
+        font-size: 18px;
+        height: 37px;
+        width: 37px;
+        padding-top: 12px;
+        line-height: 12px;
+    }
+    .material-scrolltop.reveal i {
+        font-size: 18px;
+    }
+    .material-scrolltop.reveal {
+        height: 37px !important;
+        width: 37px !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .nav-link.active::after {
+        display: none;
+    }
+    .mobile-app {
+        margin-top: 3rem;
+    }
+    .introduction {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .introduction h1 {
+        font-size: 29px;
+        line-height: 48px;
+    }
+    .heading {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .introduction {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1440px) {
+    .hero {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .introduction p {
+        text-align: center;
+    }
+    .introduction .subtitle {
+        padding-left: 0;
+    }
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
+    .introduction {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .hero img {
+        width: 100%;
+        text-align: center;
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
+    .introduction {
+        text-align: center;
+    }
+    .hero img {
+        margin-bottom: 2rem;
+        margin-top: 0 !important;
+    }
+    .introduction .subtitle {
+        padding-left: 0px;
+    }
+}
+
+/*=================================================
+About Area Responsive/Skills
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .about-us {
+        text-align: center;
+    }
+    .about-content {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .about-content p {
+        font-size: 14px;
+    }
+    .skill h6 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-me {
+        margin-bottom: 2rem;
+    }
+    .about-content {
+        text-align: center;
+    }
+}
+
+/*=================================================
+my-resume
+====================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .resume p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .resume-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .resume-icon {
+        margin-bottom: 1rem;
+    }
+    .resume {
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-services {
+        text-align: center;
+    }
+    .resume-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .resume-icon {
+        margin-bottom: 1rem;
+    }
+    .resume {
+        margin-left: 0rem;
+    }
+}
+
+/*=================================================
+Services
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .section-services {
+        text-align: center;
+    }
+    .single-service {
+        border: 1px solid var(--background-1);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .wrapper p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mt_0 {
+        margin-top: 0 !important;
+    }
+    .single-service p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .single-service p {
+        text-align: center;
+    }
+}
+
+/*=================================================
+testimonial
+====================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .testimonial-item p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .team-caption {
+        font-size: 14px;
+    }
+}
+
+/*=================================================
+Blog
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .blog-post {
+        border: 1px solid var(--background-1);
+        padding: 2rem 0 !important;
+    }
+    .articles {
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .blog-img {
+        margin-left: 0px;
+    }
+    .blog-post {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog-img {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    .blog-post {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/*=================================================
+Contact Us
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .contact {
+        text-align: center;
+    }
+    .contact-text p {
+        margin: 1rem 0;
+    }
+    .mb_5 {
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .contact-text p {
+        font-size: 14px;
+    }
+}
+
+/*=================================================
+Footer
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .footer {
+        text-align: center;
+    }
+    .description-1 {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        text-align: center;
+    }
+    .description-1 {
+        text-align: center !important;
+    }
+}
+
+/*=================================================
+All Section gap
+====================================================*/
+
+@media only screen and (max-width: 980px) {
+    .about-us,
+    .my-resume,
+    .section-services,
+    .portfolio-area,
+    .testimonial,
+    .blog,
+    .contact {
+        padding: 50px 0;
+    }
+}
